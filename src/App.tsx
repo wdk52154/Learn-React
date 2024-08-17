@@ -1,10 +1,11 @@
 import React from 'react';
+import Home from './components/Home/Home';
 
 const App: React.FC = () => {
   return (
-    <div className="app-box">
-      <h1>This is App</h1>
-    </div>
+    <>
+      <Home />
+    </>
   );
 };
 
