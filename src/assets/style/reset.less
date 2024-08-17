@@ -1,0 +1,37 @@
+/*重置样式*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    /*统一给所有的a去除下划线  */
+    text-decoration: none;
+  }
+  img{
+    /* 统一给所有的img解决距离下面3px的问题 */
+    display: block;
+  }
+  li{
+    /* 去除所有li自带的符号样式 */
+    list-style: none; 
+  }
+  h1,h2,h3,h4,h5,h6{
+    /* 去除所有标题的加粗 */
+    font-weight: 500;
+  }
+  /* 版心统一给一个名字设置代码,哪个盒子需要就给哪个盒子调用该名字 */
+  /* ps中要测量版心的宽度 */
+  
+  /* 在一个结构里面,子元素浮动了,父元素没有设置高度,父元素产生高度塌陷。
+  万能清除法 */
+  .clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  
