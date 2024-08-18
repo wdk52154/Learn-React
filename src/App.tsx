@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './components/Home/Home';
+import Father from './Pages/Case/Case1';
 
 const App: React.FC = () => {
   return (
     <>
-      <Home />
+      <Father />
     </>
   );
 };
