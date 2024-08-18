@@ -1,10 +1,10 @@
 import React from 'react';
-import Father from './Pages/Case/Case1';
+import PackingList from './Pages/Case/Case2';
 
 const App: React.FC = () => {
   return (
     <>
-      <Father />
+      <PackingList />
     </>
   );
 };
