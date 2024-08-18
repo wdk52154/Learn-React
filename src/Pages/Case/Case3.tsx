@@ -1,4 +1,5 @@
 import React from 'react';
+//渲染列表
 const data1 = [
   '凯瑟琳·约翰逊: 数学家',
   '马里奥·莫利纳: 化学家',

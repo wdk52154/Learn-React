@@ -1,10 +1,10 @@
 import React from 'react';
-import Case3 from './Pages/Case/Case3';
+import Case4 from './Pages/Case/Case4';
 
 const App: React.FC = () => {
   return (
     <>
-      <Case3 />
+      <Case4 />
     </>
   );
 };
