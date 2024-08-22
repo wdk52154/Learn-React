@@ -29,6 +29,11 @@
     },
     "include": [
         "./src/**/*.ts",
-        "./src/**/*.tsx"
+        "./src/**/*.tsx",
+        "src/utils/utils.js",
+        "src/components/Todo-list/Todos.jsx",
+        "src/components/Todo-list/Todoinput.jsx",
+        "src/components/Todo-list/Todo.jsx",
+        "src/components/Todo-list/index.jsx"
     ]
 }

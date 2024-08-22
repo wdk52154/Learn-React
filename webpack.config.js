@@ -27,7 +27,7 @@ module.exports = {
   },
   //路径模块解析规则
   resolve: {
-    extensions: ['.js', '.jsx', '.tsx'], // 添加其他需要的扩展
+    extensions: ['.js', '.jsx', '.tsx', '.ts'], // 添加其他需要的扩展
     //配置别名,@以后代表的就是src这个路径
     alias: {
       '@': path.resolve(__dirname, 'src'),
@@ -95,7 +95,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.tsx?$/,
+        test: /\.tsx$/,
         use: ['ts-loader'],
         exclude: /node_modules/,
       },
