@@ -1,10 +1,10 @@
 import React from 'react';
-import TodoList from './components/Todo-list';
+import Case1 from './Pages/ES6/Case';
 
 const App: React.FC = () => {
   return (
     <>
-      <TodoList />
+      <Case1 />
     </>
   );
 };
