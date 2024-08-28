@@ -34,6 +34,9 @@
         "src/components/Todo-list/Todos.jsx",
         "src/components/Todo-list/Todoinput.jsx",
         "src/components/Todo-list/Todo.jsx",
-        "src/components/Todo-list/index.jsx"
+        "src/components/Todo-list/index.jsx",
+        "src/Pages/dataStructure/Ds2.js",
+        "src/Pages/dataStructure/Ds1.js",
+        "src/Pages/dataStructure/Ds3.js"
     ]
 }

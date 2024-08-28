@@ -53,7 +53,7 @@ module.exports = {
       directory: path.join(__dirname, 'public'),
     },
     host: '127.0.0.1', //域名
-    port: 3000, //端口号
+    port: 3005, //端口号
     open: true, //自动打开浏览器
     hot: true, //热更新
     compress: true, //开启服务器端的GZIP压缩
