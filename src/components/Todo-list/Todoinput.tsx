@@ -7,6 +7,7 @@ const Todoinput: React.FC<TodoinputProps> = ({ save }) => {
   console.log('save', save);
   return (
     <input
+      className="todo-input"
       placeholder="请输入内容"
       onKeyUp={(e: any) => {
         if (e.keyCode === 13) {
