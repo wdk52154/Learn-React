@@ -43,7 +43,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       //打包后CSS文件的名字
-      filename: 'main.[hash:8].css',
+      filename: 'main.[name].css',
     }),
   ],
   //dev-server
