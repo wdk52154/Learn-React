@@ -7,6 +7,7 @@ interface TodoProps {
   end: (id: number) => void;
   isEnd?: boolean;
 }
+//每一项
 const Todo: React.FC<TodoProps> = ({ txt, del, end, id, isEnd }) => {
   console.log(del);
   return (

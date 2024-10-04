@@ -16,12 +16,12 @@ const TodolistBox = styled.div`
     height: 100vh;
     background-color: pink;
     .todo-input {
-      background-color: skyblue;
+      /* background-color: skyblue; */
       text-align: center;
       width: 200px;
       height: 50px;
       border: 1px solid #ccc;
-      border-radius: 4px;
+      border-radius: 25px;
       font-size: 20px;
       outline: none; //移除焦点时的默认轮廓线
     }

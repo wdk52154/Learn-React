@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /* 创建链表 */
+      //
+      function Node(value) {
+        this.value = value;
+        this.next = null;
+      }
+      let a = new Node(1);
+      let b = new Node(2);
+      let c = new Node(3);
+      let d = new Node(4);
+      a.next = b;
+      b.next = c;
+      c.next = d;
+      d.next = null;
+      //遍历链表,接受一个链表的根节点root作为参数
+      function bianLink(root) {
+        let temp = root;
+        //这个过程一直继续,直到temp为null,这意味着它已经到达链表的末尾
+        while (true) {
+          //如果当前节点temp不是null
+          if (temp != null) {
+            console.log(temp.value); //打印当前节点的value
+          } else {
+            break;
+          }
+          temp = temp.next; //将temp更新为下一个节点
+        }
+      }
+      bianLink(a);
+    </script>
+  </body>
+</html>

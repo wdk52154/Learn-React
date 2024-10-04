@@ -4,7 +4,6 @@ function Node(value) {
 }
 
 //创建链表
-// 使用类型断言来创建节点实例
 let a = new Node(1);
 let b = new Node(2);
 let c = new Node(3);
