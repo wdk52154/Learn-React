@@ -100,7 +100,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|jpg)$/i,
         type: 'javascript/auto', //webpack5需要的
         use: [
           {

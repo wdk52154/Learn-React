@@ -1,10 +1,10 @@
 import React from 'react';
-import Test6 from './Pages/JS/数组方法/Test6';
+import Test1 from './Pages/HTML+CSS/Test1';
 
 const App: React.FC = () => {
   return (
     <>
-      <Test6 />
+      <Test1 />
     </>
   );
 };
