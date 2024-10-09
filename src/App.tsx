@@ -1,10 +1,10 @@
 import React from 'react';
-import Test1 from './Pages/HTML+CSS/Test1';
+import Biaodan from './Pages/HTML+CSS/biaodan/Biaodan';
 
 const App: React.FC = () => {
   return (
     <>
-      <Test1 />
+      <Biaodan />
     </>
   );
 };
