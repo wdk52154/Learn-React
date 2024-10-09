@@ -1,10 +1,10 @@
 import React from 'react';
-import Biaodan from './Pages/HTML+CSS/biaodan/Biaodan';
+import Sprite from './Pages/HTML+CSS/jlt/Sprite';
 
 const App: React.FC = () => {
   return (
     <>
-      <Biaodan />
+      <Sprite />
     </>
   );
 };
