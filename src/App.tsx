@@ -1,10 +1,10 @@
 import React from 'react';
-import Sprite from './Pages/HTML+CSS/jlt/Sprite';
+import Demo1 from './Pages/HTML+CSS/jddw/Demo1';
 
 const App: React.FC = () => {
   return (
     <>
-      <Sprite />
+      <Demo1 />
     </>
   );
 };
