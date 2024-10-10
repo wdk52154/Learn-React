@@ -1,10 +1,10 @@
 import React from 'react';
-import Jsgc from './Pages/HTML+CSS/sszjsgc/Jsgc';
+import Wlxzq from './Pages/HTML+CSS/wlxzq/Wlxzq';
 
 const App: React.FC = () => {
   return (
     <>
-      <Jsgc />
+      <Wlxzq />
     </>
   );
 };
